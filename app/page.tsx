@@ -4,10 +4,12 @@ import Link from "next/link";
 export default function Home() {
   return (
     <>
-      <nav>
-        <Link href="/">
-          <Image src="/logo-dark.webp" width={200} height={200} alt="Logo" />
-        </Link>
+      <nav className="bg-red-400 text-white ">
+        <div className="w-[100px] h-[50px] bg-amber-500 relative">
+          <Link href="/about" className="">
+            <Image src="/logo-dark.webp" priority fill alt="Logo" />
+          </Link>
+        </div>
       </nav>
     </>
   );
