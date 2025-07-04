@@ -1,28 +1,29 @@
 import Image from "next/image";
 import Link from "next/link";
+import { Search } from 'lucide-react';
 
 export default function Home() {
   return (
     <>
-      <nav className="bg-red-400 text-white flex justify-between items-center px-4 py-3">
-        <div className="w-[100px] h-[50px] bg-amber-500 relative">
+      <nav className="flex justify-between items-center px-12 py-6 border-b-3 border-black">
+        <div className="w-[80px] h-[40px] relative">
           <Link href="/about" className="">
             <Image src="/logo-dark.webp" priority fill alt="Logo" />
           </Link>
         </div>
 
-        <ul className="flex space-x-4 font-semibold text-lg">
-          <li>HOME</li>
-          <li>ENTERTAINMENT</li>
-          <li>TECH</li>
-          <li>POLITICS</li>
-          <li>HEALTH</li>
-          <li>LIFESTYLE</li>
-          <li>FOOD</li>
+        <ul className="flex space-x-6 font-semibold text-xl text-black">
+          <Link href="/">HOME</Link>
+          <Link href="/entertainment">ENTERTAINMENT</Link>
+          <Link href="/tech">TECH</Link>
+          <Link href="/politics">POLITICS</Link>
+          <Link href="/health">HEALTH</Link>
+          <Link href="/lifestyle">LIFESTYLE</Link>
+          <Link href="/food">FOOD</Link>
         </ul>
 
+        <Search className="cursor-pointer text-black" />
 
-        
       </nav>
     </>
   );
