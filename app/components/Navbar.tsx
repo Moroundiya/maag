@@ -19,10 +19,6 @@ export default function Navbar() {
                 <Link href="/lifestyle">LIFESTYLE</Link>
                 <Link href="/food">FOOD</Link>
             </ul>
-<<<<<<< HEAD
-=======
-
->>>>>>> 8dc09c841196aee9df30e5fb1195b15647830198
             <Search className="cursor-pointer text-black" />
         </nav>
     )
