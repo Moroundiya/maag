@@ -5,6 +5,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { Search } from 'lucide-react';
 import { CircleUser } from 'lucide-react';
+import NavLink from "./components/NavLink";
 
 export const metadata: Metadata = {
   title: "MAAG",
@@ -29,14 +30,9 @@ export default function RootLayout({
               <Image src="/logo-dark.webp" priority fill alt="Logo" />
             </Link>
           </div>
-          <ul className="flex space-x-6 font-semibold text-xl text-black">
-            <Link href="/">HOME</Link>
-            <Link href="/entertainment">ENTERTAINMENT</Link>
-            <Link href="/tech">TECH</Link>
-            <Link href="/politics">POLITICS</Link>
-            <Link href="/health">HEALTH</Link>
-            <Link href="/lifestyle">LIFESTYLE</Link>
-            <Link href="/food">FOOD</Link>
+          <ul className="flex space-x-6 font-semiboldd text-xl text-black">
+            <NavLink href="/">HOME</NavLink>
+            <NavLink href="/entertainment">ENTERTAINMENT</NavLink>
           </ul>
 
           <div className="flex items-center space-x-2 justify-center">
