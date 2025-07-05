@@ -6,6 +6,7 @@ import Link from "next/link";
 import { Search } from 'lucide-react';
 import { CircleUser } from 'lucide-react';
 import NavLink from "./components/NavLink";
+import { links } from "./data/links";
 
 export const metadata: Metadata = {
   title: "MAAG",
@@ -31,8 +32,12 @@ export default function RootLayout({
             </Link>
           </div>
           <ul className="flex space-x-6 font-semiboldd text-xl text-black">
-            <NavLink href="/">HOME</NavLink>
-            <NavLink href="/entertainment">ENTERTAINMENT</NavLink>
+            {
+              links.map((link) => (
+                <NavLink key={link.category} href={link.href}>
+                  {link.category}
+                </NavLink>))
+            }
           </ul>
 
           <div className="flex items-center space-x-2 justify-center">
