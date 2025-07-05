@@ -4,6 +4,7 @@ import { Familjen_Grotesk } from 'next/font/google'
 import Image from "next/image";
 import Link from "next/link";
 import { Search } from 'lucide-react';
+import { CircleUser } from 'lucide-react';
 
 export const metadata: Metadata = {
   title: "MAAG",
@@ -23,7 +24,7 @@ export default function RootLayout({
     <html lang="en" className={familjen.className}>
       <body>
         <nav className="flex justify-between items-center px-12 py-6 border-b-3 border-black">
-          <div className="w-[80px] h-[40px] relative">
+          <div className="w-[70px] h-[30px] relative">
             <Link href="/about" className="">
               <Image src="/logo-dark.webp" priority fill alt="Logo" />
             </Link>
@@ -37,7 +38,12 @@ export default function RootLayout({
             <Link href="/lifestyle">LIFESTYLE</Link>
             <Link href="/food">FOOD</Link>
           </ul>
-          <Search className="cursor-pointer text-black" />
+
+          <div className="flex items-center space-x-2 justify-center">
+            <CircleUser className="cursor-pointer text-black" />
+            <div className="border-r border-[#12121272] h-3"></div>
+            <Search className="cursor-pointer text-black" />
+          </div>
         </nav>
         {children}
       </body>
