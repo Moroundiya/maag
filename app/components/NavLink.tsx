@@ -6,6 +6,6 @@ export default function NavLink({ href, children }: { href: string; children: Re
 
     const pathname = usePathname();
     return (
-        <Link href={href} className={`uppercase ${pathname.startsWith(href) ? 'font-extrabold' : ''}`}>{children}</Link>
+        <Link href={href} className={`uppercase ${(href === '/' ? pathname === '/' : pathname.startsWith(href)) ? 'font-extrabold' : ''}`}>{children}</Link>
     )
 }

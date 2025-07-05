@@ -33,10 +33,12 @@ export default function RootLayout({
           </div>
           <ul className="flex space-x-6 font-semiboldd text-xl text-black">
             {
-              links.map((link) => (
-                <NavLink key={link.category} href={link.href}>
-                  {link.category}
-                </NavLink>))
+              links.map((link) => {
+                return (
+                  <NavLink key={link.category} href={link.href}>
+                    {link.category}
+                  </NavLink>)
+              })
             }
           </ul>
 
