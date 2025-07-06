@@ -26,7 +26,7 @@ export default function RootLayout({
     <html lang="en" className={familjen.className}>
       <body>
         <nav className="flex justify-between items-center px-12 py-6 border-b-3 border-black">
-          <div className="w-[70px] h-[30px] relative">
+          <div className="w-[90px] h-[40px] relative">
             <Link href="/" className="">
               <Image src="/logo-dark.webp" priority fill alt="Logo" />
             </Link>
