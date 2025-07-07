@@ -25,6 +25,54 @@ export default function HeroSection() {
                     </div>
                 </div>
             </div>
+
+            <div className="pl-3 grid grid-cols-2">
+
+                <div className="space-y-6">
+                    <div>
+                        <div className="w-full h-[200px] relative overflow-hidden rounded-md">
+                            <Image src="/demo-image-3.webp" alt="" fill className="rounded-md object-cover hover:scale-105 transition-all duration-500" />
+                        </div>
+                        <h1 className="font-bold text-xl pt-2 hover:text-[#0000008d] transition-all duration-300 leading-tight">The Role of Choreography in Modern Theater</h1>
+                        <div className="w-full border-b border-[#00000027] my-2"></div>
+                        <div className="flex justify-between items-center">
+                            <div className="flex items-center space-x-3 text-[11.5px]">
+                                <div className="bg-[#0000002b] px-2 py-0.5 rounded-sm">
+                                    Events
+                                </div>
+                                <p>Jan 7, 2025</p>
+                                <p>by Joanna Wellick</p>
+                            </div>
+                            <div className="flex items-center justify-center space-x-0.5 text-[12px]">
+                                <Eye className="" size={12} />
+                                <p>3</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div className="w-full h-[200px] relative overflow-hidden rounded-md">
+                            <Image src="/demo-image-2.webp" alt="" fill className="rounded-md object-cover hover:scale-105 transition-all duration-500" />
+                        </div>
+                        <h1 className="font-bold text-xl pt-2 hover:text-[#0000008d] transition-all duration-300 leading-tight">The Best Rock Albums Released This Year: Must-Listen Tracks and Standout Records</h1>
+                        <div className="w-full border-b border-[#00000027] my-2"></div>
+                        <div className="flex justify-between items-center">
+                            <div className="flex items-center space-x-3 text-[12px]">
+                                <div className="bg-[#0000002b] px-2 py-0.5 rounded-sm">
+                                    Events
+                                </div>
+                                <p>Jan 7, 2025</p>
+                                <p>by Joanna Wellick</p>
+                            </div>
+                            <div className="flex items-center justify-center space-x-0.5 text-[11.5px]">
+                                <Eye className="" size={12} />
+                                <p>3</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
         </div>
     );
 }
