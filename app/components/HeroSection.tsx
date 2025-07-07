@@ -10,7 +10,7 @@ export default function HeroSection() {
                 </div>
                 <h1 className="font-bold text-5xl pt-4 pb-2 hover:text-[#0000008d] transition-all duration-300">How Music Tours Create Unforgettable Moments</h1>
                 <p className="text-[#525252] leading-tight">In the Age of Information, news media faces both unprecedented opportunities and significant challenges.</p>
-                <div className="w-full border-b border-[#00000027] my-4.5"></div>
+                <div className="w-full border-b border-[#00000027] my-4"></div>
                 <div className="flex justify-between items-center">
                     <div className="flex items-center space-x-3 text-sm">
                         <div className="bg-[#0000002b] px-2 py-0.5 rounded-sm">
