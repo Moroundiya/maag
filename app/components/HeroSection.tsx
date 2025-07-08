@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { Eye } from 'lucide-react';
 
 export default function HeroSection() {
     return (
@@ -11,16 +12,16 @@ export default function HeroSection() {
                 <p className="text-[#525252] leading-tight">In the Age of Information, news media faces both unprecedented opportunities and significant challenges.</p>
                 <div className="w-full border-b border-[#00000039] my-4.5"></div>
                 <div className="flex justify-between items-center">
-                    <div className="flex items-center space-x-2 text-sm">
-                        <div className="bg-gray-400 px-2 py-.5 rounded-sm">
+                    <div className="flex items-center space-x-3 text-sm">
+                        <div className="bg-[#0000002b] px-2 py-0.5 rounded-sm">
                             Events
                         </div>
                         <p>Jan 7, 2025</p>
                         <p>by Joanna Wellick</p>
                     </div>
-
-                    <div>
-
+                    <div className="flex items-center justify-center space-x-0.5">
+                        <Eye className="" size={18} />
+                        <p>3</p>
                     </div>
                 </div>
             </div>
