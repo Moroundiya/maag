@@ -3,7 +3,7 @@ import { Eye } from 'lucide-react';
 
 export default function HeroSection() {
     return (
-        <div className="w-full px-12 grid grid-cols-2 pt-10 mb-20">
+        <div className="w-full xl:px-8 2xl:px-12 grid grid-cols-2 relative top-36 mb-20">
             <div className="border-r pr-3 border-[#00000027]">
                 <div className="w-full xl:h-[350px] 2xl:h-[400px] relative overflow-hidden rounded-md">
                     <Image src="/demo-image-1.webp" alt="" fill className="rounded-md object-cover hover:scale-105 transition-all duration-500" />
@@ -29,7 +29,7 @@ export default function HeroSection() {
             <div className="pl-3 grid grid-cols-2">
                 <div className="space-y-6">
                     <div>
-                        <div className="w-full h-[200px] relative overflow-hidden rounded-md">
+                        <div className="w-full xl:h-[180px] 2xl:h-[200px] relative overflow-hidden rounded-md">
                             <Image src="/demo-image-3.webp" alt="" fill className="rounded-md object-cover hover:scale-105 transition-all duration-500" />
                         </div>
                         <h1 className="font-bold text-xl pt-2 hover:text-[#0000008d] transition-all duration-300 leading-tight">The Role of Choreography in Modern Theater</h1>
@@ -49,7 +49,7 @@ export default function HeroSection() {
                         </div>
                     </div>
                     <div>
-                        <div className="w-full h-[200px] relative overflow-hidden rounded-md">
+                        <div className="w-full xl:h-[180px] 2xl:h-[200px] relative overflow-hidden rounded-md">
                             <Image src="/demo-image-2.webp" alt="" fill className="rounded-md object-cover hover:scale-105 transition-all duration-500" />
                         </div>
                         <h1 className="font-bold text-xl pt-2 hover:text-[#0000008d] transition-all duration-300 leading-tight">The Best Rock Albums Released This Year: Must-Listen Tracks and Standout Records</h1>
