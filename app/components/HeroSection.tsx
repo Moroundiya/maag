@@ -27,7 +27,6 @@ export default function HeroSection() {
             </div>
 
             <div className="pl-3 grid grid-cols-2">
-
                 <div className="space-y-6">
                     <div>
                         <div className="w-full h-[200px] relative overflow-hidden rounded-md">
