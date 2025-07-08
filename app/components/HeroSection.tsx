@@ -5,7 +5,7 @@ export default function HeroSection() {
     return (
         <div className="w-full px-12 grid grid-cols-2 pt-10 mb-20">
             <div className="border-r pr-3 border-[#00000027]">
-                <div className="w-full h-[400px] relative overflow-hidden rounded-md">
+                <div className="w-full xl:h-[350px] 2xl:h-[400px] relative overflow-hidden rounded-md">
                     <Image src="/demo-image-1.webp" alt="" fill className="rounded-md object-cover hover:scale-105 transition-all duration-500" />
                 </div>
                 <h1 className="font-bold text-5xl pt-4 pb-2 hover:text-[#0000008d] transition-all duration-300">How Music Tours Create Unforgettable Moments</h1>
