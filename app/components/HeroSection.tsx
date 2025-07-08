@@ -10,6 +10,19 @@ export default function HeroSection() {
                 <h1 className="font-bold text-5xl pt-4 pb-2 hover:text-[#0000008d] transition-all duration-300">How Music Tours Create Unforgettable Moments</h1>
                 <p className="text-[#525252] leading-tight">In the Age of Information, news media faces both unprecedented opportunities and significant challenges.</p>
                 <div className="w-full border-b border-[#00000039] my-4.5"></div>
+                <div className="flex justify-between items-center">
+                    <div className="flex items-center space-x-2 text-sm">
+                        <div className="bg-gray-400 px-2 py-.5 rounded-sm">
+                            Events
+                        </div>
+                        <p>Jan 7, 2025</p>
+                        <p>by Joanna Wellick</p>
+                    </div>
+
+                    <div>
+
+                    </div>
+                </div>
             </div>
         </div>
     );
