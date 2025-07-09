@@ -3,7 +3,7 @@ import { Eye } from 'lucide-react';
 export default function Medium({ title, date, category, image, author, views }: { title?: string; date?: string; category?: string; image?: string; author?: string; views?: number }) {
     return (
         <div>
-            <div className="w-full xl:h-[180px] 2xl:h-[200px] relative overflow-hidden rounded-md">
+            <div className="w-full h-[200px] xl:h-[180px] 2xl:h-[200px] relative overflow-hidden rounded-md">
                 <Image src={image ? image : ''} alt="" fill className="rounded-md object-cover hover:scale-105 transition-all duration-500" />
             </div>
             <h1 className="font-bold text-xl pt-2 hover:text-[#0000008d] transition-all duration-300 leading-tight">{title}</h1>
