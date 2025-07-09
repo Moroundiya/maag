@@ -4,7 +4,7 @@ import Medium from "../layouts/Medium";
 
 export default function HeroSection() {
     return (
-        <div className="w-full xl:px-8 2xl:px-12 grid grid-cols-2 relative top-36 mb-20">
+        <div className="w-full xl:px-8 2xl:px-12 grid grid-cols-2 relative top-36 pb-20">
             <div className="border-r pr-3 border-[#00000027]">
                 <div className="w-full xl:h-[350px] 2xl:h-[400px] relative overflow-hidden rounded-md">
                     <Image src="/demo-image-1.webp" alt="" fill className="rounded-md object-cover hover:scale-105 transition-all duration-500" />
@@ -28,9 +28,9 @@ export default function HeroSection() {
             </div>
 
             <div className="pl-3 grid grid-cols-2">
-                <div className="space-y-6">
-                    <Medium />
-
+                <div className="space-y-8">
+                    <Medium title="Exploring the Evolution of Jazz: From Classic to Contemporary" date="Jan 7, 2025" category="Events" author="Joanna Wellick" views={3} image="/demo-image-3.webp" />
+                    <Medium title="The Best Rock Albums Released This Year: Must-Listen Tracks and Standout Records" date="Jan 7, 2025" category="Events" author="Joanna Wellick" views={3} image="/demo-image-2.webp" />
                 </div>
 
             </div>
