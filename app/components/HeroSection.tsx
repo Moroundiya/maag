@@ -40,9 +40,7 @@ export default function HeroSection() {
                     <HeroSmall title="Top 10 Music Festivals You Can’t Miss This Year" date="Jan 7, 2025" category="Events" image="/demo-image-8.webp" />
                     <HeroSmall title="Exploring the Art of Visual Effects in Cinema" date="Jan 7, 2025" category="Events" image="/demo-image-7.webp" />
                 </div>
-
             </div>
-
         </div>
     );
 }
