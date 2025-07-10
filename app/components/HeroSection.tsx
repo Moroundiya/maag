@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { Eye } from 'lucide-react';
-import Medium from "../layouts/Medium";
+import Medium from "../layouts/HeroMedium";
 
 export default function HeroSection() {
     return (

@@ -1,6 +1,6 @@
 import Image from "next/image"
 import { Eye } from 'lucide-react';
-export default function Medium({ title, date, category, image, author, views }: { title?: string; date?: string; category?: string; image?: string; author?: string; views?: number }) {
+export default function HeroMedium({ title, date, category, image, author, views }: { title?: string; date?: string; category?: string; image?: string; author?: string; views?: number }) {
     return (
         <div>
             <div className="w-full h-[200px] xl:h-[180px] 2xl:h-[200px] relative overflow-hidden rounded-md">
