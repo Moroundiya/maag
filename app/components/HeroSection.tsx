@@ -36,6 +36,9 @@ export default function HeroSection() {
                 <div className="space-y-4 pl-3">
                     <HeroSmall title="The Rise of Indie Music: How Independent Artists Are Changing the Industry" date="Jan 7, 2025" category="Events" image="/demo-image-5.webp" />
                     <HeroSmall title="The Lure of Nostalgia: How Retro Music Comebacks Are Shaping Today’s Soundscape" date="Jan 7, 2025" category="Events" image="/demo-image-4.webp" />
+                    <HeroSmall title="The Impact of Music Streaming on the Industry: Opportunities and Challenges" date="Jan 7, 2025" category="Events" image="/demo-image-6.webp" />
+                    <HeroSmall title="Behind the Scenes: The Making of a Blockbuster Hit" date="Jan 7, 2025" category="Events" image="/demo-image-6.webp" />
+                    <HeroSmall title="Exploring the Art of Visual Effects in Cinema" date="Jan 7, 2025" category="Events" image="/demo-image-7.webp" />
                 </div>
 
             </div>
