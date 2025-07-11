@@ -5,7 +5,7 @@ import HeroSmall from "../layouts/HeroSmall";
 
 export default function HeroSection() {
     return (
-        <div className="w-full xl:px-8 2xl:px-12 grid lg:grid-cols-2 relative top-36 pb-20">
+        <div className="w-full xl:px-8 2xl:px-12 grid lg:grid-cols-2 pt-33">
             <div className="border-r pr-3 border-[#00000027]">
                 <div className="w-full h-[400px] xl:h-[350px] 2xl:h-[400px] relative overflow-hidden rounded-md">
                     <Image src="/demo-image-1.webp" alt="" fill className="rounded-md object-cover hover:scale-105 transition-all duration-500" />

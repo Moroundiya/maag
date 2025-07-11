@@ -1,10 +1,12 @@
 import HeroSection from "./components/HeroSection";
-import Navbar from "./components/Navbar";
+import Separator from "./layouts/Seperator";
 
 export default function Home() {
   return (
     <>
       <HeroSection />
+      <Separator />
+      <p>Hello world</p>
     </>
   );
 }
