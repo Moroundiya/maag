@@ -6,7 +6,7 @@ export default function Home() {
     <>
       <HeroSection />
       <Separator />
-      <div>
+      <div className="px-3 xl:px-8 2xl:px-12 font-semibold">
         <p>Trend </p>
       </div>
     </>
