@@ -6,7 +6,9 @@ export default function Home() {
     <>
       <HeroSection />
       <Separator />
-      <p>Hello world</p>
+      <div>
+        <p>Trend </p>
+      </div>
     </>
   );
 }
