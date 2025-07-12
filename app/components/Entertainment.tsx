@@ -9,7 +9,6 @@ export default function Entertainment() {
                 <span>Trend</span>
                 <ArrowRight size={20} />
             </p>
-
             <div className="grid grid-cols-3 mt-5 mb-20">
                 <div className="space-y-8 border-r pr-4 border-[#00000027]">
                     <HeroMedium title="Exploring the Evolution of Jazz: From Classic to Contemporary" date="Jan 7, 2025" category="Events" author="Joanna Wellick" views={3} image="/demo-image-3.webp" />
@@ -26,7 +25,6 @@ export default function Entertainment() {
                     <HeroSmall title="The Rise of Indie Music: How Independent Artists Are Changing the Industry" date="Jan 7, 2025" category="Events" image="/demo-image-5.webp" />
                     <HeroSmall title="Behind the Scenes: The Making of a Blockbuster Hit" date="Jan 7, 2025" category="Events" image="/demo-image-6.webp" />
                 </div>
-
             </div>
         </div>
     )
