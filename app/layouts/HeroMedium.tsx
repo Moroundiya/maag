@@ -13,8 +13,8 @@ export default function HeroMedium({ title, date, category, image, author, views
                     <div className="bg-[#0000002b] px-2 py-0.5 rounded-sm">
                         {category}
                     </div>
-                    <p>{date}</p>
-                    <p>by {author}</p>
+                    <p className="text-gray-600 font-light">{date}</p>
+                    <p className="text-gray-600 font-light">by {author}</p>
                 </div>
                 <div className="flex items-center justify-center space-x-0.5 text-[11.5px]">
                     <Eye className="" size={12} />

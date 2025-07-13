@@ -8,11 +8,11 @@ export default function HeroSmall({ title, date, category, image }: { title?: st
             </div>
             <div className="w-full lg:w-2/3 space-y-2">
                 <p className="text-md leading-snug hover:text-[#0000008d] transition-all duration-300 font-bold">{title}</p>
-                <div className="flex items-center space-x-3 text-[11.5px]">
+                <div className="flex items-center space-x-3 text-[11.5px] ">
                     <div className="bg-[#0000002b] px-1.5 py-0.5 rounded-sm">
                         {category}
                     </div>
-                    <p>{date}</p>
+                    <p className="text-gray-600 font-light">{date}</p>
                 </div>
             </div>
         </div>
