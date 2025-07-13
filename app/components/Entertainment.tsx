@@ -7,7 +7,7 @@ export default function Entertainment() {
     return (
         <div className="px-3 xl:px-8 2xl:px-12 font-semibold mb-10">
             <Link href="/entertainment" className="flex items-center">
-                <span>Trend</span>
+                <span>Entertainment</span>
                 <ArrowRight size={20} />
             </Link>
             <div className="grid grid-cols-3 mt-5">
