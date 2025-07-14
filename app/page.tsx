@@ -3,6 +3,7 @@ import Separator from "./layouts/Seperator";
 import Entertainment from "./components/Entertainment";
 import Tech from "./components/Tech";
 import Politics from "./components/Politics";
+import Sports from "./components/Sports";
 
 export default function Home() {
   return (
@@ -14,6 +15,8 @@ export default function Home() {
       <Tech />
       <Separator />
       <Politics />
+      <Separator />
+      <Sports />
     </>
   );
 }
