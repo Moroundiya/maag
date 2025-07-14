@@ -1,8 +1,7 @@
-import { ArrowRight } from "lucide-react";
 import HeroSection from "./components/HeroSection";
 import Separator from "./layouts/Seperator";
 import Entertainment from "./components/Entertainment";
-import Link from "next/link";
+import Tech from "./components/Tech";
 
 export default function Home() {
   return (
@@ -11,7 +10,7 @@ export default function Home() {
       <Separator />
       <Entertainment />
       <Separator />
-     
+      <Tech />
     </>
   );
 }
