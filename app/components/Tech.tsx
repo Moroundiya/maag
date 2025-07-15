@@ -33,7 +33,7 @@ export default function Tech() {
                     <div className="border-s border-[#dedede8d] w-2/7 flex flex-col justify-between text-white backdrop-blur-[5px]">
                         <p className="py-10 border-b border-[#dedede8d] text-xl font-semibold px-6">Popular Posts</p>
                         <div className="flex space-x-3 border-b border-[#dedede8d] pb-4 px-6">
-                            <div className="w-full lg:w-1/2 h-[100px] xl:h-[80px] 2xl:h-[100px] relative overflow-hidden rounded-md">
+                            <div className="w-full lg:w-2/7 h-[100px] xl:h-[80px] 2xl:h-[100px] relative overflow-hidden rounded-md">
                                 <Image src='/demo-image-1.webp' alt="" fill className="rounded-md object-cover hover:scale-105 transition-all duration-500" />
                             </div>
                             <div className="w-full lg:w-2/3 space-y-2">
@@ -47,7 +47,7 @@ export default function Tech() {
                             </div>
                         </div>
                         <div className="flex space-x-3 border-b border-[#dedede8d] pb-4 px-6">
-                            <div className="w-full lg:w-1/2 h-[100px] xl:h-[80px] 2xl:h-[100px] relative overflow-hidden rounded-md">
+                            <div className="w-full lg:w-2/7 h-[100px] xl:h-[80px] 2xl:h-[100px] relative overflow-hidden rounded-md">
                                 <Image src='/demo-image-1.webp' alt="" fill className="rounded-md object-cover hover:scale-105 transition-all duration-500" />
                             </div>
                             <div className="w-full lg:w-2/3 space-y-2">
@@ -61,7 +61,7 @@ export default function Tech() {
                             </div>
                         </div>
                         <div className="flex space-x-3 border-b border-[#dedede8d] pb-4 px-6">
-                            <div className="w-full lg:w-1/2 h-[100px] xl:h-[80px] 2xl:h-[100px] relative overflow-hidden rounded-md">
+                            <div className="w-full lg:w-2/7 h-[100px] xl:h-[80px] 2xl:h-[100px] relative overflow-hidden rounded-md">
                                 <Image src='/demo-image-1.webp' alt="" fill className="rounded-md object-cover hover:scale-105 transition-all duration-500" />
                             </div>
                             <div className="w-full lg:w-2/3 space-y-2">
