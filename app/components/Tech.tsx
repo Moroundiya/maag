@@ -11,7 +11,7 @@ export default function Tech() {
                 <ArrowRight size={20} />
             </Link>
 
-            <div className="w-full h-[500px] mt-5 relative group overflow-hidden">
+            <div className="w-full h-[550px] mt-5 relative group overflow-hidden">
                 <Image src="/section-bg.webp" alt="Image" fill className="absolute top-0 left-0 group-hover:scale-105 transition-all duration-700 ease-in-out" />
                 <div className="absolute w-full h-full top-0 left-0 bg-[#00000048] flex justify-between">
                     <div className="p-10 w-2/4 text-white">
@@ -30,7 +30,7 @@ export default function Tech() {
                             </div>
                         </div>
                     </div>
-                    <div className="border-s border-[#dedede8d] w-2/7 flex flex-col justify-between text-white">
+                    <div className="border-s border-[#dedede8d] w-2/7 flex flex-col justify-between text-white backdrop-blur-[5px]">
                         <p className="py-10 border-b border-[#dedede8d] text-xl font-semibold px-6">Popular Posts</p>
                         <div className="flex space-x-3 border-b border-[#dedede8d] pb-4 px-6">
                             <div className="w-full lg:w-1/2 h-[100px] xl:h-[80px] 2xl:h-[100px] relative overflow-hidden rounded-md">
