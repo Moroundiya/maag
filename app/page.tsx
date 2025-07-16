@@ -17,6 +17,7 @@ export default function Home() {
       <Politics />
       <Separator />
       <Sports />
+      <Separator />
     </>
   );
 }

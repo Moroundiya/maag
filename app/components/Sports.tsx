@@ -1,7 +1,8 @@
-import { ArrowRight } from "lucide-react"
+import { ArrowRight, Eye } from "lucide-react"
 import Link from "next/link"
 import HeroMedium from "../layouts/HeroMedium"
 import HeroSmall from "../layouts/HeroSmall"
+import Image from "next/image"
 
 export default function Sports() {
     return (
@@ -12,7 +13,27 @@ export default function Sports() {
             </Link>
             <div className="flex mt-5">
                 <div className="w-2/3 space-y-8 border-r pr-4 border-[#00000027]">
+                    <div className="w-full h-1/2 bg-red-400 relative overflow-hidden rounded-md">
+                        <Image src='/demo-image-3.webp' alt="" fill className="rounded-md absolute top-0 left-0 object-cover hover:scale-105 transition-all duration-500" />
+                    </div>
 
+                    <div className="h-1/2 w-full bg-blue-400">
+
+                    </div>
+                    {/* <h1 className="font-bold text-xl pt-2 hover:text-[#0000008d] transition-all duration-300 leading-tight">Alternative Cardio Workouts Beyond Running</h1>
+                    <div className="w-full border-b border-[#00000027] my-2"></div>
+                    <div className="flex justify-between items-center">
+                        <div className="flex items-center space-x-3 text-[12px]">
+                            <div className="bg-[#0000002b] px-2 py-0.5 rounded-sm">
+                                Sports
+                            </div>
+                            <p className="text-gray-600 font-light">21 Janurary, 2025</p>
+                            <p className="text-gray-600 font-light">by Moroundiya</p>
+                        </div>
+                        <div className="flex items-center justify-center space-x-0.5 text-[11.5px]">
+                            <Eye className="" size={12} />
+                            <p>5</p>
+                        </div> */}
                 </div>
                 <div className="w-1/3 space-y-8 px-4">
                     <HeroMedium title="Exploring the Evolution of Jazz: From Classic to Contemporary" date="Jan 7, 2025" category="Events" author="Joanna Wellick" views={3} image="/demo-image-3.webp" />
