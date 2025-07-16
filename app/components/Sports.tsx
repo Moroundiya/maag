@@ -16,8 +16,8 @@ export default function Sports() {
                     <div className="w-full h-1/2 bg-red-400 relative overflow-hidden rounded-md">
                         <Image src='/demo-image-3.webp' alt="" fill className="rounded-md absolute top-0 left-0 object-cover hover:scale-105 transition-all duration-500" />
 
-                        <div className="absolute w-full h-full top-0 left-0 bg-[#00000048] flex justify-betwee">
-                            <p className="text-white p-4 text-2xl font-light leading-tight">5 Quick Self-Care Tips for a Balanced Life</p>
+                        <div className="absolute w-full h-full top-0 left-0 bg-[#00000048] flex flex-col justify-end space-y-3">
+                            <p className="text-white p-4 text-3xl font-light leading-tight xl:w-3/4">5 Quick Self-Care Tips for a Balanced Life</p>
                             <div className="flex items-center justify-between text-[13px] border-t border-[#dedede8d] p-4">
                                 <div className="flex items-center space-x-2">
                                     <div className="bg-[#fff] text-black px-2 py-0.5 rounded-sm">
