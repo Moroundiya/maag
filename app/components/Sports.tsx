@@ -12,7 +12,7 @@ export default function Sports() {
                 <ArrowRight size={20} />
             </Link>
             <div className="flex mt-5">
-                <div className="w-2/3 space-y-8 border-r pr-4 border-[#00000027]">
+                <div className="w-2/3 flex flex-col space-y-8 h-auto border-r pr-4 border-[#00000027]">
                     <div className="w-full h-1/2 bg-red-400 relative overflow-hidden rounded-md">
                         <Image src='/demo-image-3.webp' alt="" fill className="rounded-md absolute top-0 left-0 object-cover hover:scale-105 transition-all duration-500" />
                     </div>
