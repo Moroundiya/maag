@@ -4,6 +4,7 @@ import Entertainment from "./components/Entertainment";
 import Tech from "./components/Tech";
 import Politics from "./components/Politics";
 import Sports from "./components/Sports";
+import Health from "./components/Health";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
       <Separator />
       <Sports />
       <Separator />
+      <Health />
     </>
   );
 }
