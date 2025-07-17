@@ -6,14 +6,17 @@ import Link from "next/link";
 
 export default function Health() {
     return (
-
         <div className="px-3 xl:px-8 2xl:px-12 font-semibold mb-10">
             <Link href="/health" className="flex items-center">
                 <span>Health</span>
                 <ArrowRight size={20} />
             </Link>
-            <div className="w-full grid lg:grid-cols-2 mt-5">
-                <div className="border-r pr-3 border-[#00000027]">
+            <div className="w-full flex mt-5">
+                <div className="space-y-8 border-r pr-3 border-[#00000027]">
+                    <HeroMedium title="Exploring the Evolution of Jazz: From Classic to Contemporary" date="Jan 7, 2025" category="Events" author="Joanna Wellick" views={3} image="/demo-image-3.webp" />
+                    <HeroMedium title="The Best Rock Albums Released This Year: Must-Listen Tracks and Standout Records" date="Jan 7, 2025" category="Events" author="Joanna Wellick" views={3} image="/demo-image-2.webp" />
+                </div>
+                <div className="border-r px-3 border-[#00000027]">
                     <div className="w-full h-[400px] xl:h-[350px] 2xl:h-[400px] relative overflow-hidden rounded-md">
                         <Image src="/demo-image-1.webp" alt="" fill className="rounded-md object-cover hover:scale-105 transition-all duration-500" />
                     </div>
@@ -34,19 +37,12 @@ export default function Health() {
                         </div>
                     </div>
                 </div>
-
-                <div className="pl-3 grid grid-cols-2">
-                    <div className="space-y-8 border-r pr-3 border-[#00000027]">
-                        <HeroMedium title="Exploring the Evolution of Jazz: From Classic to Contemporary" date="Jan 7, 2025" category="Events" author="Joanna Wellick" views={3} image="/demo-image-3.webp" />
-                        <HeroMedium title="The Best Rock Albums Released This Year: Must-Listen Tracks and Standout Records" date="Jan 7, 2025" category="Events" author="Joanna Wellick" views={3} image="/demo-image-2.webp" />
-                    </div>
-                    <div className="space-y-4 pl-3">
-                        <HeroSmall title="The Rise of Indie Music: How Independent Artists Are Changing the Industry" date="Jan 7, 2025" category="Events" image="/demo-image-5.webp" />
-                        <HeroSmall title="Behind the Scenes: The Making of a Blockbuster Hit" date="Jan 7, 2025" category="Events" image="/demo-image-6.webp" />
-                        <HeroSmall title="The Lure of Nostalgia: How Retro Music Comebacks Are Shaping Today’s Soundscape" date="Jan 7, 2025" category="Events" image="/demo-image-4.webp" />
-                        <HeroSmall title="Top 10 Music Festivals You Can’t Miss This Year" date="Jan 7, 2025" category="Events" image="/demo-image-8.webp" />
-                        <HeroSmall title="Exploring the Art of Visual Effects in Cinema" date="Jan 7, 2025" category="Events" image="/demo-image-7.webp" />
-                    </div>
+                <div className="space-y-4 pl-3">
+                    <HeroSmall title="The Rise of Indie Music: How Independent Artists Are Changing the Industry" date="Jan 7, 2025" category="Events" image="/demo-image-5.webp" />
+                    <HeroSmall title="Behind the Scenes: The Making of a Blockbuster Hit" date="Jan 7, 2025" category="Events" image="/demo-image-6.webp" />
+                    <HeroSmall title="The Lure of Nostalgia: How Retro Music Comebacks Are Shaping Today’s Soundscape" date="Jan 7, 2025" category="Events" image="/demo-image-4.webp" />
+                    <HeroSmall title="Top 10 Music Festivals You Can’t Miss This Year" date="Jan 7, 2025" category="Events" image="/demo-image-8.webp" />
+                    <HeroSmall title="Exploring the Art of Visual Effects in Cinema" date="Jan 7, 2025" category="Events" image="/demo-image-7.webp" />
                 </div>
             </div>
         </div>
