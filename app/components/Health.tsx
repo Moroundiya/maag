@@ -1,11 +1,16 @@
 import Image from "next/image";
-import { Eye } from 'lucide-react';
+import { Eye, ArrowRight } from 'lucide-react';
 import HeroMedium from "../layouts/HeroMedium";
 import HeroSmall from "../layouts/HeroSmall";
+import Link from "next/link";
 
 export default function Health() {
     return (
-        <div className="w-full px-3 xl:px-8 2xl:px-12 grid lg:grid-cols-2 pt-33">
+        <div className="px-3 xl:px-8 2xl:px-12 font-semibold mb-10">
+            <Link href="/health" className="flex items-center">
+                <span>Health</span>
+                <ArrowRight size={20} />
+            </Link>
             <div className="border-r pr-3 border-[#00000027]">
                 <div className="w-full h-[400px] xl:h-[350px] 2xl:h-[400px] relative overflow-hidden rounded-md">
                     <Image src="/demo-image-1.webp" alt="" fill className="rounded-md object-cover hover:scale-105 transition-all duration-500" />
