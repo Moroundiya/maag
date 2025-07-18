@@ -7,7 +7,7 @@ export default function HeroSmall({ title, date, category, image }: { title?: st
                 <Image src={image ? image : ''} alt="" fill className="rounded-md object-cover hover:scale-105 transition-all duration-500" />
             </div>
             <div className="w-full lg:w-2/3 space-y-2">
-                <p className="text-md leading-snug hover:text-[#0000008d] transition-all duration-300 font-bold">{title}</p>
+                <p className="text-md leading-snug hover:text-[#0000008d] transition-all duration-300 font-bold line-clamp-2">{title}</p>
                 <div className="flex items-center space-x-3 text-[11.5px] ">
                     <div className="bg-[#0000002b] px-1.5 py-0.5 rounded-sm">
                         {category}

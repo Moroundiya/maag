@@ -6,7 +6,7 @@ export default function HeroMedium({ title, date, category, image, author, views
             <div className="w-full h-[200px] xl:h-[180px] 2xl:h-[200px] relative overflow-hidden rounded-md">
                 <Image src={image ? image : ''} alt="" fill className="rounded-md object-cover hover:scale-105 transition-all duration-500" />
             </div>
-            <h1 className="font-bold text-xl pt-2 hover:text-[#0000008d] transition-all duration-300 leading-tight">{title}</h1>
+            <h1 className="font-bold text-xl pt-2 hover:text-[#0000008d] transition-all duration-300 leading-tight line-clamp-2">{title}</h1>
             <div className="w-full border-b border-[#00000027] my-2"></div>
             <div className="flex justify-between items-center">
                 <div className="flex items-center space-x-3 text-[12px]">
