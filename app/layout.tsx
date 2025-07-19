@@ -4,7 +4,7 @@ import { Familjen_Grotesk } from 'next/font/google'
 import Image from "next/image";
 import Link from "next/link";
 import { Search } from 'lucide-react';
-import { CircleUser, Menu } from 'lucide-react';
+import { CircleUser, Menu, SquarePen } from 'lucide-react';
 import NavLink from "./components/NavLink";
 import { links } from "./data/links";
 
@@ -43,12 +43,12 @@ export default function RootLayout({
             }
           </ul>
 
-          <div className="flex items-center space-x-2 justify-center bg-[#000] text-white px-3 py-2">
-            <CircleUser className="cursor-pointer " />
+          <Link href="/login" className="flex items-center space-x-2 justify-center bg-[#000] text-white px-3 py-2 rounded-md text-sm cursor-pointer hover:bg-[#2e2c2c] transition-all duration-500 ease-in-out">
+            <SquarePen className="cursor-pointer" size={20} />
             <p className="">Post Content</p>
             {/* <div className="border-r border-[#12121272] h-3"></div>
             <Search className="cursor-pointer text-black" /> */}
-          </div>
+          </Link>
         </nav>
         {children}
       </body>
