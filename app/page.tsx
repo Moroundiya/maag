@@ -6,6 +6,7 @@ import Politics from "./components/Politics";
 import Sports from "./components/Sports";
 import Health from "./components/Health";
 import LatestPosts from "./components/LatestPosts";
+import Footer from "./components/Footer";
 
 export default function Home() {
   return (
@@ -23,6 +24,7 @@ export default function Home() {
       <Health />
       <Separator />
       <LatestPosts />
+      <Footer />
     </>
   );
 }
