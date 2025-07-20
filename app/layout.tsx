@@ -31,7 +31,7 @@ export default function RootLayout({
               <Image src="/logo-dark.webp" priority fill alt="Logo" className="" />
             </Link>
           </div>
-          <Menu size={26} className="lg:hidden" />
+          <Menu size={26} className="lg:hidden cursor-pointer" />
           <ul className="hidden lg:flex space-x-6 text-xl text-black">
             {
               links.map((link) => {
