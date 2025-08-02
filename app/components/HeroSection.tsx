@@ -28,12 +28,12 @@ export default function HeroSection() {
                 </div>
             </div>
 
-            <div className="lg:pl-3 grid lg:grid-cols-2 space-y-6 lg:space-y-0">
-                <div className="space-y-8 lg:border-r lg:pr-3 border-[#00000027]">
+            <div className="lg:pl-3 grid md:grid-cols-2 space-y-6 lg:space-y-0">
+                <div className="space-y-8 md:border-r md:pr-3 border-[#00000027]">
                     <HeroMedium title="Exploring the Evolution of Jazz: From Classic to Contemporary" date="Jan 7, 2025" category="Events" author="Joanna Wellick" views={3} image="/demo-image-3.webp" />
                     <HeroMedium title="The Best Rock Albums Released This Year: Must-Listen Tracks and Standout Records" date="Jan 7, 2025" category="Events" author="Joanna Wellick" views={3} image="/demo-image-2.webp" />
                 </div>
-                <div className="space-y-4 lg:pl-3">
+                <div className="space-y-4 md:pl-3">
                     <HeroSmall title="The Rise of Indie Music: How Independent Artists Are Changing the Industry" date="Jan 7, 2025" category="Events" image="/demo-image-5.webp" />
                     <HeroSmall title="Behind the Scenes: The Making of a Blockbuster Hit" date="Jan 7, 2025" category="Events" image="/demo-image-6.webp" />
                     <HeroSmall title="The Lure of Nostalgia: How Retro Music Comebacks Are Shaping Today’s Soundscape" date="Jan 7, 2025" category="Events" image="/demo-image-4.webp" />
